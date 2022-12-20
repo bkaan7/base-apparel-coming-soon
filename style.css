@@ -1,0 +1,113 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg-pattern-desktop.svg), linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    background-size: inherit;
+    background-position-x: 8rem;
+}
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 750px;
+    
+}
+.logo{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+    padding: 30px;
+}
+
+
+.header{
+    width: auto;
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.colorize{
+    display: flex;
+    justify-content: center;
+    color:  hsl(0, 36%, 70%);
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.text{
+    color:hsl(0, 36%, 70%);
+    width: 330px;
+    padding: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+#email{
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 15px;
+    color:hsl(0, 36%, 70%);
+    width: 250px;
+
+}
+
+.formIn{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(0, 36%, 70%);
+
+}
+
+.btn{
+    border: none;
+    height:35px ;
+    width: 55px;
+    background: linear-gradient(90deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 35px;
+    color: aliceblue;
+    position: relative;
+    right: 35px;
+    
+}
+
+.errorImg{
+    border: none;
+    height:14px ;
+    width: 15px;
+    background-color: hsl(0, 93%, 68%);
+    border-radius: 15px;
+    color: aliceblue;
+    position: relative;
+    right: 59px;
+    display:none ;
+    
+}
+
+.result{
+    color:hsl(0, 36%, 70%);
+    font-size: 12px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
